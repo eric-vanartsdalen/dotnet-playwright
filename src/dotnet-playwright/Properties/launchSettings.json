@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dotnet-pw": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A093DAE-8988-47B2-B464-0A558F657337}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADC5CF84-76B5-44CA-8BD2-36EBBD699286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D0F84E78-1E59-4215-A7DB-6DD25308F2D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-playwright", "src\dotnet-playwright\dotnet-playwright.csproj", "{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playwright-1.35.0", "test\Playwright-1.35.0\Playwright-1.35.0.csproj", "{766EBAA7-EBAA-49EE-A494-6F99ED965DFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playwright-1.36.0", "test\Playwright-1.36.0\Playwright-1.36.0.csproj", "{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766EBAA7-EBAA-49EE-A494-6F99ED965DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766EBAA7-EBAA-49EE-A494-6F99ED965DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766EBAA7-EBAA-49EE-A494-6F99ED965DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766EBAA7-EBAA-49EE-A494-6F99ED965DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA8A8217-5802-4DED-A5C1-9532CAC1D6F1} = {ADC5CF84-76B5-44CA-8BD2-36EBBD699286}
+		{766EBAA7-EBAA-49EE-A494-6F99ED965DFD} = {D0F84E78-1E59-4215-A7DB-6DD25308F2D2}
+		{FD4F382C-2090-4D21-8ADA-B46A8F4B8E7B} = {D0F84E78-1E59-4215-A7DB-6DD25308F2D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E43F4E-64DA-4F44-BF66-4CE44B074E09}
+	EndGlobalSection
+EndGlobal
